@@ -51,9 +51,9 @@ body{
 .link:hover{
     border-bottom: 2px solid #fff;
 }
-.link:hover, .active{
+/*.link:hover, .active{
     border-bottom: 2px solid #fff;
-}
+}*/
 .nav-button .btn{
     width: 130px;
     height: 40px;
@@ -88,8 +88,8 @@ body{
     justify-content: center;
     width: 512px;
     height: 420px;
-    /*overflow: hidden;*/
-    border: 1px solid #fff;
+    overflow: hidden;
+    border: 1px solid #fff;/*кордони форми*/
     z-index: 2;
 }
 .login-container{
@@ -192,3 +192,4 @@ gap: 5px;
 .two label a:hover{
     text-decoration: underline;
 }
+/*=========================================BURGER==================*/
