@@ -13,7 +13,7 @@
         <div class="nav-logo">
             <p>Logo.</p>
         </div>
-        <div class="nav-menu">
+        <div class="nav-menu" id="navMenu">
             <ul>
                 <li><a href="#" class="link active">Home</a></li>
                 <li><a href="#" class="link">Blog</a></li>
@@ -103,6 +103,20 @@
         </div>
     </div> 
 </div> 
+<!--------------------------script-burger--------------------------->
+<script>
+    function myMenuFunction() {
+        var i = document.getElementById("navMenu");
+        if(i.className === "nav-menu"){
+            i.className += " responsive";
+        }else {
+            i.className = "nav-menu";
+        }
+    }
+
+</script>
+
+<!--------------------------script-login/register-->
 
 <script>
     var a = document.getElementById("loginBtn");
